@@ -11,6 +11,7 @@ Static GitHub Pages site for iOwn Apps: developer homepage, privacy policies, an
 | Home | https://iown-apps.github.io/iown-apps-web-page/ |
 | Privacy directory | https://iown-apps.github.io/iown-apps-web-page/privacy/ |
 | QR Scanner policy | https://iown-apps.github.io/iown-apps-web-page/iown-qr-privacy-policy/ |
+| QR Scanner Terms of Use | https://iown-apps.github.io/iown-apps-web-page/iown-qr-terms-of-use/ |
 | app-ads.txt | https://iown-apps.github.io/iown-apps-web-page/app-ads.txt |
 
 ## Repository layout
@@ -19,6 +20,7 @@ Static GitHub Pages site for iOwn Apps: developer homepage, privacy policies, an
 index.html                 # Developer homepage
 privacy/                   # Privacy policies directory
 iown-qr-privacy-policy/    # QR Scanner privacy policy
+iown-qr-terms-of-use/      # QR Scanner Terms of Use
 app-ads.txt                # AdMob authorized sellers
 assets/                    # Shared CSS, JS, fonts, images
 ```
