@@ -14,6 +14,7 @@
     <title>Terms of Use — iOwn QR &amp; Barcode Scanner</title>
     <link rel="icon" type="image/png" href="../assets/images/iown-qr-icon.png" />
     <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/play-store.css" />
   </head>
   <body class="page-policy" data-asset-base="../assets/">
     <a class="skip-link" href="#main">Skip to content</a>
@@ -33,13 +34,27 @@
             <span class="brand__meta">Terms of Use</span>
           </span>
         </a>
-        <nav class="header-nav" aria-label="App download" style="margin-left: auto">
+        <nav class="header-nav" aria-label="App download">
           <a
+            class="play-download-btn"
             href="https://play.google.com/store/apps/details?id=com.iown.qrscanner"
             target="_blank"
             rel="noopener noreferrer"
-            >Download our app</a
+            aria-label="Download iOwn QR and Barcode Scanner on Google Play"
           >
+            <svg
+              class="play-download-btn__icon"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path
+                fill="currentColor"
+                d="M3.609 1.814 13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92Zm10.89 10.893 2.302 2.302-10.937 6.333 8.635-8.635Zm3.199-3.198 2.337 1.349c.8.46.8 1.617 0 2.078l-2.337 1.349L15.206 12l2.492-2.491ZM5.864 2.658 16.8 8.991l-2.302 2.302L5.864 2.658Z"
+              />
+            </svg>
+            <span class="play-download-btn__label">Download</span>
+          </a>
         </nav>
       </div>
     </header>
@@ -264,6 +279,7 @@
       </div>
     </footer>
 
+    <script src="../assets/js/bottom-download-bar.js" defer></script>
     <script src="../assets/js/main.js" defer></script>
   </body>
 </html>
